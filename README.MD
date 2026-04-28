@@ -210,7 +210,7 @@ docker run -d \
   -v $(pwd)/data:/data \
   -p 53:53/tcp \
   -p 53:53/udp \
-  ghcr.io/masterking32/masterdnsvpn:latest
+  ghcr.io/pouya6672/masterdnsvpn:latest
 ```
 
 ---
@@ -220,7 +220,7 @@ docker run -d \
 ```yaml
 services:
   masterdnsvpn:
-    image: ghcr.io/masterking32/masterdnsvpn:latest
+    image: ghcr.io/pouya6672/masterdnsvpn:latest
     restart: unless-stopped
     environment:
       - DOMAIN=v.example.com
