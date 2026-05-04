@@ -1,6 +1,6 @@
 services:
   masterdnsvpn:
-    image: ghcr.io/masterking32/masterdnsvpn::latest
+    image: ghcr.io/masterking32/masterdnsvpn:latest
     restart: unless-stopped
     environment:
       - DOMAIN=v.example.com
